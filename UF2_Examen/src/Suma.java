@@ -9,4 +9,15 @@ public class Suma {
         int suma = valorAbsolutNum1 + valorAbsolutNum2; // Calculem la suma dels valors absoluts
         return suma; // Retornem el resultat
     }
+
+    // Mètode per retornar el num1
+    public int getNum1() {
+        return num1;
+
+    }
+
+    // Mètode per sumar i retornar el resultat
+    public int suma() {
+        return num1 + num2;
+    }
 }
